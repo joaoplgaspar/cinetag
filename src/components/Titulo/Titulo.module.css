@@ -1,0 +1,6 @@
+.texto h2 {
+    text-align: center;
+    color: var(--preto);
+    font-weight: 500;
+    margin: 2em 0;
+}

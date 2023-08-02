@@ -1,0 +1,30 @@
+:root {
+  --fonte: 'Montserrat', sans-serif;
+  --branco: #ffffff;
+  --preto: #000000;
+  --cinza: #E2E2E2;
+}
+
+body {
+  margin: 0;
+  background-color: var(--branco);
+  font-family: var(--fonte);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  background: rgb(61, 61, 61);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(6, 6, 6);
+  border-radius: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
