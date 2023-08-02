@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+<h1> Cinetag </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Static Badge](https://img.shields.io/badge/Status-_Finalizado-green?style=for-the-badge)
 
-## Available Scripts
+O Cinetag é um projeto para montar funcionalidades para favoritar seus videos preferidos e acessa-los no próprio site pelo player.
 
-In the project directory, you can run:
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Cinetag**
+| :label: Tecnologias | react, html5, css3, javascript
+| :rocket: URL         | https://cinetag-azure.vercel.app/
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Cinetag](https://github.com/joaoplgaspar/cinetag/assets/130015259/40386e05-153d-4fe0-9ee3-da13ab4eb7f4#vitrinedev)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<hr>
 
-### `npm test`
+## Resumo do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O Cinetag é um projeto para montar funcionalidades para favoritar seus videos preferidos e acessa-los no próprio site pelo player. Foi criado utilizando o metódo Single Page Application, o uso de contextos por meio do useContext, criação de hooks personalizados e utilização de uma API própria, externalizada por meio do site My Json Server (Typicode). Projeto proposto por um curso Alura.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# :hammer: Funcionalidades do projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `Funcionalidade 1`: Favoritar e desfavoritar videos
+- `Funcionalidade 2`: Acessar uma aba com apenas os favoritos
+- `Funcionalidade 3`: Acesso ao video no site por um player YT
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Funcionalidades Cinetag](https://github.com/joaoplgaspar/cinetag/assets/130015259/40386e05-153d-4fe0-9ee3-da13ab4eb7f4)
 
-### `npm run eject`
+## ✔️ Técnicas e tecnologias utilizadas
+- ``REACT, JAVASCRIPT, HTML5, CSS3``
+- ``Single Page Application (SPA) com rotas dinâmicas, aninhadas, parâmetros``
+- ``React Context com useContext``
+- ``Criação de hooks personalizados``
+- ``Métodos de array (some, splice, indexOf, map)``
+- ``Consumo de API com FetchAPI``
+- ``Hospedar API no My Json Server``
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 🛠️ Abrir e rodar o projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Utilize `npm install` dentro da pasta do projeto para baixar suas pendências**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**A seguir `npm start` para iniciar o projeto**
